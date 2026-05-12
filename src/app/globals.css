@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #fafafa;
+  --muted: #0f0f10;
+  --muted-foreground: #a1a1aa;
+  --border: rgba(255, 255, 255, 0.08);
+  --card: #0c0c0d;
+  --card-foreground: #fafafa;
+  --accent: #ff8a2b;
+  --accent-foreground: #0a0a0a;
+  --highlight: #ffd166;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-highlight: var(--highlight);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-geist-sans);
+}
+
+html {
+  background: var(--background);
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
+
+/* Glass surface used for nav, cards-on-mesh */
+.apex-glass {
+  background: rgba(15, 15, 16, 0.65);
+  backdrop-filter: saturate(140%) blur(14px);
+  -webkit-backdrop-filter: saturate(140%) blur(14px);
+  border: 1px solid var(--border);
+}
+
+/* Subtle inner gradient for premium card surfaces */
+.apex-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
+    var(--card);
+  border: 1px solid var(--border);
+}
+
+/* Hero radial glow */
+.apex-hero-glow {
+  background:
+    radial-gradient(60% 60% at 50% 0%, rgba(255, 138, 43, 0.18) 0%, transparent 60%),
+    radial-gradient(40% 40% at 80% 30%, rgba(255, 209, 102, 0.10) 0%, transparent 70%),
+    radial-gradient(50% 50% at 10% 60%, rgba(80, 100, 255, 0.08) 0%, transparent 70%);
+}
+
+/* Animated mesh background — slow drifting orange/blue blobs */
+.apex-mesh-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 138, 43, 0.22), transparent 45%),
+    radial-gradient(circle at 80% 30%, rgba(255, 200, 100, 0.12), transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(80, 110, 255, 0.10), transparent 55%);
+  filter: blur(60px);
+  animation: apex-mesh-drift 24s ease-in-out infinite alternate;
+}
+
+@keyframes apex-mesh-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(2%, -1%, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(-1%, 2%, 0) scale(1.02);
+  }
+}
+
+/* Hairline divider */
+.apex-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.12),
+    transparent
+  );
+}
+
+/* Gradient feature cards */
+.gradient-orange-pink {
+  background: linear-gradient(135deg, #ff8a2b 0%, #ff3b8a 100%);
+}
+
+.gradient-orange-yellow {
+  background: linear-gradient(135deg, #ff8a2b 0%, #ffd166 100%);
+}
+
+.gradient-purple-pink {
+  background: linear-gradient(135deg, #6e6cf2 0%, #ff3b8a 100%);
+}
+
+.gradient-blue-cyan {
+  background: linear-gradient(135deg, #2d6cdf 0%, #4ddfff 100%);
+}
+
+/* Subtle grain overlay (use sparingly) */
+.apex-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
+/* Numeric display — used for the giant vert numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Smooth fade-in for client components after hydration */
+@keyframes apex-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.apex-fade-in {
+  animation: apex-fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
