@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Measure your vert. Track your dunk.",
   url: "https://apexvert.com",
   description:
-    "Apex measures your vertical jump from your pocket. No filming, no setup — just jump and get a number. Track your progress all the way to a dunk.",
+    "Apex measures your vertical jump with camera-assisted motion tracking. Set your reach, jump, and track your progress all the way to a dunk.",
   developer: "Thea Apps Inc.",
   bundleId: "app.thea.apex",
   teamId: "PBZ67VMD73",

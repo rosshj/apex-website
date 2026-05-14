@@ -23,9 +23,9 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "No filming. No setup.",
+    title: "Camera-assisted jump tracking.",
     description:
-      "Drop your phone in your pocket and jump. Apex's sensors do the rest — no slow-mo video, no tapping frames.",
+      "Apex uses ARKit and motion sensors to measure your jump without slow-mo frame tapping or manual video review.",
     icon: <PocketIcon />,
     accent: "from-orange-400/30 to-rose-500/20",
   },
@@ -51,9 +51,9 @@ const features: Feature[] = [
     accent: "from-violet-400/30 to-pink-400/20",
   },
   {
-    title: "Built for iOS 26.",
+    title: "Built for modern iPhone.",
     description:
-      "Glass effects, haptics, mesh gradients, dark mode that actually looks good. Apex feels native because it is.",
+      "Runs on iOS 18 and newer, with Liquid Glass polish on iOS 26 where supported. Apex feels native because it is.",
     icon: <SparkleIcon />,
     accent: "from-emerald-400/30 to-cyan-300/20",
   },

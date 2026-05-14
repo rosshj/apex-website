@@ -11,15 +11,15 @@ const steps = [
   },
   {
     number: "02",
-    title: "Drop the phone in your pocket.",
+    title: "Aim, calibrate, jump.",
     description:
-      "Or hold it. Either way, when Apex says Ready — jump.",
+      "Hold your iPhone steady while Apex locks onto the space around you. When it says Ready, jump.",
   },
   {
     number: "03",
     title: "Get your number.",
     description:
-      "Sensors and a Kalman filter compute your jump height the moment you land. Save it. Share it. Beat it.",
+      "Camera-assisted motion tracking estimates your jump height the moment you land. Save it. Share it. Beat it.",
   },
 ];
 

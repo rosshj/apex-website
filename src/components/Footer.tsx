@@ -10,20 +10,22 @@ export function Footer() {
           <div className="flex flex-col gap-3">
             <ApexLogo />
             <p className="text-sm text-muted-foreground max-w-sm">
-              Apex measures your vertical jump from your pocket. Built by{" "}
-              {siteConfig.developer}.
+              Measures your vertical jump with your iPhone.
             </p>
           </div>
 
           <div className="flex flex-col items-start md:items-end gap-3 text-sm text-muted-foreground">
-            <div className="flex items-center gap-5">
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+              <Link href="/blog" className="hover:text-foreground transition-colors">
+                Blog
+              </Link>
               <Link href="/privacy" className="hover:text-foreground transition-colors">
                 Privacy
               </Link>
               <Link href="/terms" className="hover:text-foreground transition-colors">
                 Terms
               </Link>
-              <Link href="#faq" className="hover:text-foreground transition-colors">
+              <Link href="/#faq" className="hover:text-foreground transition-colors">
                 FAQ
               </Link>
               <a

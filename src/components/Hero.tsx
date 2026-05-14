@@ -43,9 +43,9 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.15 }}
               className="mt-6 max-w-xl mx-auto lg:mx-0 text-lg text-muted-foreground leading-relaxed"
             >
-              Apex measures your vertical jump from your pocket. No filming, no
-              setup — just jump and get a number. Then watch the gap to a dunk
-              shrink.
+              Apex uses your iPhone&apos;s camera and motion sensors to measure
+              your vertical jump. Set your reach, jump, and watch the gap to a
+              dunk shrink.
             </motion.p>
 
             <motion.div
@@ -87,7 +87,7 @@ export function Hero() {
             >
               <span>iPhone only</span>
               <span aria-hidden>·</span>
-              <span>iOS 26+</span>
+              <span>iOS 18+</span>
               <span aria-hidden>·</span>
               <span>No account required</span>
             </motion.div>
@@ -102,26 +102,6 @@ export function Hero() {
               className="relative"
             >
               <PhoneMockup variant={2} />
-              {/* Floating accent bubble */}
-              <motion.div
-                aria-hidden
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.6 }}
-                className="absolute -bottom-4 -left-4 sm:-left-10 rotate-[-6deg] apex-glass rounded-2xl px-3 py-2 text-xs text-white/80"
-              >
-                <span className="text-orange-300 font-semibold">+2.1″</span> from
-                last week
-              </motion.div>
-              <motion.div
-                aria-hidden
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.75 }}
-                className="absolute top-10 -right-4 sm:-right-10 rotate-[5deg] apex-glass rounded-2xl px-3 py-2 text-xs text-white/80"
-              >
-                4.2″ from a dunk
-              </motion.div>
             </motion.div>
           </div>
         </div>

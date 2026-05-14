@@ -7,10 +7,10 @@ interface ApexLogoProps {
 
 export function ApexLogo({ className, showWordmark = true }: ApexLogoProps) {
   return (
-    <div className={cn("inline-flex items-center gap-2.5", className)}>
-      <ApexMark className="h-6 w-6" />
+    <div className={cn("flex items-center gap-2.5 leading-none", className)}>
+      <ApexMark className="block h-6 w-auto" />
       {showWordmark && (
-        <span className="text-[1.05rem] font-semibold tracking-tight text-foreground">
+        <span className="block text-[1.05rem] font-semibold leading-none tracking-tight text-foreground">
           Apex
         </span>
       )}
@@ -21,21 +21,18 @@ export function ApexLogo({ className, showWordmark = true }: ApexLogoProps) {
 function ApexMark({ className }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 32 32"
+      viewBox="90 130 845 704"
       fill="none"
       aria-hidden="true"
       className={className}
     >
-      <defs>
-        <linearGradient id="apex-mark-grad" x1="0" y1="0" x2="32" y2="32">
-          <stop offset="0%" stopColor="#FFD166" />
-          <stop offset="55%" stopColor="#FF8A2B" />
-          <stop offset="100%" stopColor="#FF4D6D" />
-        </linearGradient>
-      </defs>
       <path
-        d="M16 3 L29 27 L21.5 27 L16 16 L10.5 27 L3 27 Z"
-        fill="url(#apex-mark-grad)"
+        d="M512.149 130C532.253 130 547.095 139.922 556.853 157.192C567.927 176.794 578.357 196.749 589.449 216.35C618.518 267.732 647.941 318.927 676.963 370.337C716.966 441.208 756.755 512.19 796.58 583.155C831.171 644.784 865.763 706.414 900.14 768.155C904.627 776.212 909.422 784.652 911.307 793.502C915.672 814.017 898.815 833.039 877.779 832.965L877.769 832.956C865.11 832.937 855.426 827.202 848.103 817.215C824.109 784.521 800.199 751.762 776.215 719.059C723.917 647.769 671.59 576.505 619.273 505.233C590.68 466.273 562.143 427.266 533.484 388.352C522.262 373.125 501.785 373.489 490.683 388.688C457.22 434.484 423.683 480.224 390.127 525.954C358.044 569.68 325.906 613.358 293.814 657.074C254.642 710.433 215.48 763.801 176.326 817.169C167.809 828.778 156.427 834.532 142.042 832.648C128.833 830.914 119.513 823.453 114.494 811.023C110.454 801.008 111.434 791.161 116.621 781.845C149.216 723.377 181.811 664.908 214.547 606.514C247.814 547.178 281.202 487.898 314.628 428.646C354.472 358.018 394.465 287.483 434.262 216.827C445.392 197.076 455.868 176.961 466.969 157.192C476.802 139.698 491.943 130 512.149 130Z"
+        fill="#FF9411"
+      />
+      <path
+        d="M491.215 665.216C539.716 665.216 588.218 665.216 636.719 665.262C652.242 665.271 664.239 676.079 664.948 690.533C665.694 705.77 653.389 718.378 637.549 718.415C612.519 718.481 587.49 718.434 562.47 718.434H512.103V718.415L512.093 718.406C470.281 718.406 428.46 718.481 386.647 718.378C365.956 718.322 353.053 697.881 362.419 679.8C367.597 669.813 376.488 665.243 387.682 665.234C422.19 665.206 456.708 665.206 491.215 665.216Z"
+        fill="#FF9411"
       />
     </svg>
   );

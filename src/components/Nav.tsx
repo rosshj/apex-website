@@ -5,9 +5,10 @@ import { ApexLogo } from "./ApexLogo";
 import { AppStoreButton } from "./AppStoreButton";
 
 const links = [
-  { label: "Features", href: "#features" },
-  { label: "Dunk", href: "#dunk" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Features", href: "/#features" },
+  { label: "Dunk", href: "/#dunk" },
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/#faq" },
 ];
 
 export function Nav() {
@@ -15,7 +16,11 @@ export function Nav() {
     <header className="fixed top-0 inset-x-0 z-40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-3">
         <div className="apex-glass flex items-center justify-between rounded-full pl-4 pr-2 py-2">
-          <Link href="/" aria-label="Apex home" className="shrink-0">
+          <Link
+            href="/"
+            aria-label="Apex home"
+            className="flex shrink-0 items-center leading-none"
+          >
             <ApexLogo />
           </Link>
 

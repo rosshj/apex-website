@@ -41,7 +41,7 @@ export function PhoneMockup({ variant = 2 }: PhoneMockupProps) {
           <div className="absolute top-2 left-1/2 -translate-x-1/2 h-6 w-24 rounded-full bg-black" />
 
           {/* Top bar — profile pill */}
-          <div className="absolute top-12 left-0 right-0 px-5">
+          <div className="absolute top-12 left-0 right-0 px-5 flex">
             <motion.div
               initial={{ opacity: 0, y: -6 }}
               animate={{ opacity: 1, y: 0 }}
