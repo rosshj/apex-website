@@ -47,7 +47,7 @@ export default function Page() {
             Apex was designed so the first time you open it, you measure your
             vert before the lock screen times out. No accounts, no tutorials,
             no slow-motion video review. Point, jump, see your number. This is
-            the quick walkthrough of doing exactly that — plus the small
+            the quick walkthrough of doing exactly that, plus the small
             details that make every reading more accurate.
           </BlogP>
 
@@ -59,9 +59,8 @@ export default function Page() {
               safely without hitting anything.
             </li>
             <li>
-              A reasonably well-lit room. Apex uses your camera for spatial
-              tracking — bright daylight or normal indoor lighting both work
-              well.
+              A reasonably well-lit room. Bright daylight or normal indoor
+              lighting both work well.
             </li>
             <li>
               A flat surface to place your phone, or a tripod / stand if you
@@ -72,7 +71,7 @@ export default function Page() {
           <BlogH2>1. Add your profile</BlogH2>
           <BlogP>
             The first time you open Apex, it asks for your name and your
-            standing height. Height isn&apos;t used to estimate your jump — it
+            standing height. Height isn&apos;t used to estimate your jump. It
             powers the dunk progress feature, which measures the gap between
             your peak reach and a regulation 10-foot rim. If you want to share
             the phone with a friend or your kid, add multiple profiles. Apex
@@ -81,7 +80,7 @@ export default function Page() {
           </BlogP>
 
           <BlogImage
-            alt="Person standing flat-footed against a wall, arm fully extended overhead — capturing standing reach"
+            alt="Person standing flat-footed against a wall, arm fully extended overhead, capturing standing reach"
             caption="Standing reach setup."
             aspect="4/3"
           />
@@ -95,8 +94,8 @@ export default function Page() {
           </BlogP>
           <BlogUL>
             <li>
-              Don&apos;t go up on your toes. Reach with feet completely flat —
-              that&apos;s the baseline your jump is measured from.
+              Don&apos;t go up on your toes. Reach with feet completely flat.
+              That&apos;s the baseline your jump is measured from.
             </li>
             <li>
               Re-measure your reach if you change shoes. A thicker sole
@@ -104,23 +103,21 @@ export default function Page() {
             </li>
           </BlogUL>
 
-          <BlogH2>3. Calibrate your space and jump</BlogH2>
+          <BlogH2>3. Calibrate and jump</BlogH2>
           <BlogP>
-            Prop your phone on a stable surface so the rear camera can see you
-            from head to toe. Slowly tilt the phone left and right for a couple
-            of seconds — Apex uses this to lock onto the space around you. When
-            the screen says <em>Ready</em>, step back to your launch spot and
-            jump.
+            Follow the on-screen calibration prompts. It takes about two
+            seconds. When the screen says <em>Ready</em>, jump as high as you
+            can. Tap <em>Stop</em> after you land and Apex shows your number.
           </BlogP>
           <BlogCallout>
-            Pro tip: keep the phone roughly chest-height and angled slightly
-            upward. Apex tracks best when it can see both your launch point on
-            the floor and the highest point of your jump.
+            Pro tip: stay relaxed during calibration and keep the phone steady.
+            A clean calibration is the single biggest factor in a clean
+            measurement.
           </BlogCallout>
 
           <BlogImage
             alt="Close-up of the Apex results screen showing the vertical jump number, peak reach, and dunk gap"
-            caption="The result screen — vert, peak reach, and dunk gap at a glance."
+            caption="The result screen: vert, peak reach, and dunk gap at a glance."
           />
 
           <BlogH2>4. Reading your number</BlogH2>
@@ -174,8 +171,8 @@ export default function Page() {
             your profile shows you weekly averages, your personal best, and the
             running gap to a dunk. Most people see their first inch of vert
             improvement within a few weeks of focused training. The next post
-            in this series — <em>Eight exercises that actually increase your
-            vertical jump</em> — has a four-week plan you can run with two
+            in this series, <em>Eight exercises that actually increase your
+            vertical jump</em>, has a four-week plan you can run with two
             short sessions a week.
           </BlogP>
 

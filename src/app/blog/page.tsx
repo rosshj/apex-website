@@ -8,12 +8,12 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Guides, training, and data on the vertical jump — from the team behind Apex.",
+    "Guides, training, and data on the vertical jump, from the team behind Apex.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: `Blog — ${siteConfig.name}`,
+    title: `Blog | ${siteConfig.name}`,
     description:
-      "Guides, training, and data on the vertical jump — from the team behind Apex.",
+      "Guides, training, and data on the vertical jump, from the team behind Apex.",
     url: `${siteConfig.url}/blog`,
     type: "website",
   },

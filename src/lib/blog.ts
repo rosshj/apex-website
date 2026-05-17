@@ -20,7 +20,7 @@ export const blogPosts: BlogPostMeta[] = [
     title:
       "How to use Apex: your first vert measurement in under a minute",
     excerpt:
-      "A walkthrough from opening the app the first time to saving your first jump — plus the small things that make every reading more accurate.",
+      "A walkthrough from opening the app the first time to saving your first jump, plus the small things that make every reading more accurate.",
     date: "2026-05-13",
     dateLabel: "May 13, 2026",
     readTime: "4 min read",
@@ -32,7 +32,7 @@ export const blogPosts: BlogPostMeta[] = [
     title:
       "Eight exercises that actually increase your vertical jump",
     excerpt:
-      "Strength, plyometrics, and mobility work that move the needle — plus a simple four-week template you can run with two sessions a week.",
+      "Strength, plyometrics, and mobility work that move the needle, plus a simple four-week template you can run with two sessions a week.",
     date: "2026-05-10",
     dateLabel: "May 10, 2026",
     readTime: "7 min read",
@@ -44,7 +44,7 @@ export const blogPosts: BlogPostMeta[] = [
     title:
       "What's the average vertical jump? By age, sport, and skill level",
     excerpt:
-      "How high the average adult, recreational baller, and NBA athlete jumps — and what counts as good, athletic, or elite at every level.",
+      "How high the average adult, recreational baller, and NBA athlete jumps, and what counts as good, athletic, or elite at every level.",
     date: "2026-05-06",
     dateLabel: "May 6, 2026",
     readTime: "6 min read",

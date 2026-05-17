@@ -48,10 +48,9 @@ export default function TermsOfService() {
                 </h2>
                 <p>
                   {siteConfig.name} is designed to estimate vertical jump
-                  height and help you track dunk progress using your
-                  iPhone&apos;s camera and motion sensors. You agree to use the
-                  App only for lawful purposes and in a way that does not
-                  interfere with the App or other users.
+                  height and help you track dunk progress on your iPhone. You
+                  agree to use the App only for lawful purposes and in a way
+                  that does not interfere with the App or other users.
                 </p>
                 <p>
                   You are responsible for maintaining your device, following

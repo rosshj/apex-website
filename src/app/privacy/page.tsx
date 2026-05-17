@@ -51,11 +51,11 @@ export default function PrivacyPolicy() {
                   Camera, Motion, and Jump Data
                 </h3>
                 <p>
-                  The App uses your device&apos;s camera for spatial tracking
-                  and motion sensors to measure vertical jump height and related
-                  workout progress. Camera access is used for AR tracking; the
-                  App does not record photos or videos for jump measurement.
-                  Jump measurements, profile details, and dunk progress are
+                  The App uses your device&apos;s camera and motion data to
+                  measure vertical jump height and related workout progress.
+                  Camera access is used only during a measurement; the App
+                  does not record photos or videos for jump measurement. Jump
+                  measurements, profile details, and dunk progress are
                   processed locally on your device and are not transmitted to
                   our servers.
                 </p>
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
                 <ul className="list-disc space-y-2 pl-6">
                   <li>Provide and maintain the App&apos;s jump measurement functionality</li>
                   <li>Display your saved jumps, profiles, and dunk progress on your device</li>
-                  <li>Use camera and motion access for local AR-assisted measurement</li>
+                  <li>Use camera and motion access for local jump measurement</li>
                   <li>Use selected photos for optional profile pictures</li>
                   <li>Improve app performance, reliability, and compatibility</li>
                   <li>Respond to support requests or questions you send us</li>

@@ -43,9 +43,8 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.15 }}
               className="mt-6 max-w-xl mx-auto lg:mx-0 text-lg text-muted-foreground leading-relaxed"
             >
-              Apex uses your iPhone&apos;s camera and motion sensors to measure
-              your vertical jump. Set your reach, jump, and watch the gap to a
-              dunk shrink.
+              Apex turns your iPhone into a vertical jump tester. Set your
+              reach, jump, and watch the gap to a dunk shrink.
             </motion.p>
 
             <motion.div

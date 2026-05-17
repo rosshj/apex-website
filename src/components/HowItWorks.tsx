@@ -19,7 +19,7 @@ const steps = [
     number: "03",
     title: "Get your number.",
     description:
-      "Camera-assisted motion tracking estimates your jump height the moment you land. Save it. Share it. Beat it.",
+      "The instant you land, Apex shows your jump height. Save it. Share it. Beat it.",
   },
 ];
 

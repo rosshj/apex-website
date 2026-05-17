@@ -23,9 +23,9 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Camera-assisted jump tracking.",
+    title: "Jump. Get your number.",
     description:
-      "Apex uses ARKit and motion sensors to measure your jump without slow-mo frame tapping or manual video review.",
+      "Skip the slow-mo footage and manual frame tapping. Apex gives you a real vertical the moment you land.",
     icon: <PocketIcon />,
     accent: "from-orange-400/30 to-rose-500/20",
   },
@@ -46,7 +46,7 @@ const features: Feature[] = [
   {
     title: "Train with anyone.",
     description:
-      "Multiple profiles per device — your friends, your team, your kid. No accounts, no sign-up.",
+      "Multiple profiles per device: your friends, your team, your kid. No accounts, no sign-up.",
     icon: <PeopleIcon />,
     accent: "from-violet-400/30 to-pink-400/20",
   },

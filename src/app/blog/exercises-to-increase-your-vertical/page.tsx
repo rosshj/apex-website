@@ -69,14 +69,14 @@ export default function Page() {
           <BlogP>
             The classic. Three to five sets of 3–6 reps at a hard but clean
             weight. Front squats are gentler on the back and force you to keep
-            an upright torso — useful if your knees feel cranky.
+            an upright torso, useful if your knees feel cranky.
           </BlogP>
 
           <BlogH3>2. Trap-bar deadlift</BlogH3>
           <BlogP>
             Trap-bar deadlifts let you lift heavy without the technical demand
             of a barbell deadlift. Three to four sets of 3–5 reps. Drive your
-            feet hard into the floor — your body should learn what &quot;put
+            feet hard into the floor. Your body should learn what &quot;put
             everything into the ground fast&quot; feels like.
           </BlogP>
 
@@ -96,13 +96,13 @@ export default function Page() {
 
           <BlogImage
             alt="Athlete performing a barbell back squat in a clean gym with strong knee tracking and an upright torso"
-            caption="Strength foundations — heavy squats build the force ceiling."
+            caption="Strength foundations: heavy squats build the force ceiling."
           />
 
           <BlogH2>Plyometrics: turn strength into spring</BlogH2>
           <BlogP>
             Plyos teach your nervous system to apply that strength quickly.
-            Quality matters far more than volume here — stop the set the
+            Quality matters far more than volume here. Stop the set the
             moment your jumps stop being your best. Five great reps beat
             twenty mediocre ones every time.
           </BlogP>
@@ -131,13 +131,13 @@ export default function Page() {
 
           <BlogImage
             alt="Athlete mid-air on a depth jump after stepping off a low wooden box, arms swinging upward"
-            caption="A clean depth jump — short ground contact, full extension."
+            caption="A clean depth jump: short ground contact, full extension."
           />
 
           <BlogH2>Mobility: unlock the joints</BlogH2>
           <BlogP>
             Stiff ankles and tight hips will quietly cost you inches. You
-            don&apos;t need yoga sessions — five minutes of focused work twice
+            don&apos;t need yoga sessions. Five minutes of focused work twice
             a week is enough.
           </BlogP>
 
@@ -158,7 +158,7 @@ export default function Page() {
           </BlogP>
 
           <BlogTable
-            caption="Day A — strength"
+            caption="Day A: strength"
             headers={["Exercise", "Sets × Reps"]}
             rows={[
               ["Back or front squat", "4 × 4"],
@@ -169,7 +169,7 @@ export default function Page() {
           />
 
           <BlogTable
-            caption="Day B — plyometric"
+            caption="Day B: plyometric"
             headers={["Exercise", "Sets × Reps"]}
             rows={[
               ["Broad jump", "3 × 4"],
@@ -180,7 +180,7 @@ export default function Page() {
           />
 
           <BlogCallout>
-            Once a week, test your vert with Apex in the same conditions —
+            Once a week, test your vert with Apex in the same conditions:
             same warm-up, same shoes, same room. Don&apos;t test on the same
             day as a heavy session; you&apos;ll underperform and read it as a
             regression when it&apos;s really just fatigue.
@@ -193,7 +193,7 @@ export default function Page() {
               variable in every athlete study.
             </li>
             <li>
-              Eat enough protein — roughly 1.6 grams per kilogram of bodyweight
+              Eat enough protein, roughly 1.6 grams per kilogram of bodyweight
               per day if you&apos;re actively training.
             </li>
             <li>

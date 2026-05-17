@@ -8,6 +8,22 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.join(__dirname),
   },
+  async headers() {
+    return [
+      {
+        // The Apple App Site Association file must be served as
+        // `application/json` with no extension at the exact path Apple expects
+        // — see https://developer.apple.com/documentation/xcode/supporting-associated-domains.
+        // Without an explicit Content-Type, Next.js / Vercel default to
+        // `text/plain` for extensionless files, which Apple rejects.
+        source: "/.well-known/apple-app-site-association",
+        headers: [
+          { key: "Content-Type", value: "application/json" },
+          { key: "Cache-Control", value: "public, max-age=3600" },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

@@ -45,7 +45,7 @@ export default function Page() {
         >
           <BlogP>
             &quot;Is my vertical jump good?&quot; is one of the most common
-            questions in basketball — and one of the hardest to answer in
+            questions in basketball, and one of the hardest to answer in
             isolation. A 24-inch vert is unremarkable for a college guard,
             extraordinary for a 40-year-old desk worker, and roughly average
             for a recreational pickup player. This piece gathers the numbers
@@ -55,7 +55,7 @@ export default function Page() {
           <BlogCallout>
             All numbers below are <em>standing</em> vertical jumps (no run-up)
             unless noted otherwise. Add roughly 2–4 inches for an approach
-            jump. Ranges are typical, not absolute — every dataset has outliers
+            jump. Ranges are typical, not absolute. Every dataset has outliers
             in both directions.
           </BlogCallout>
 
@@ -74,8 +74,8 @@ export default function Page() {
             ]}
           />
           <BlogP>
-            The average person who jumps regularly — recreational athletes who
-            play pickup or train casually — tends to sit a few inches above
+            The average person who jumps regularly (recreational athletes who
+            play pickup or train casually) tends to sit a few inches above
             the untrained baseline. Genetics matter, but training history
             matters more than people realize.
           </BlogP>
@@ -101,12 +101,12 @@ export default function Page() {
           />
           <BlogP>
             For women, subtract roughly 3–5 inches from each row. The
-            age-related decline is real but very trainable — masters athletes
+            age-related decline is real but very trainable. Masters athletes
             in their 40s and 50s routinely outjump untrained 20-year-olds.
           </BlogP>
 
           <BlogImage
-            alt="NBA combine vertical jump testing — vert tester with hanging vanes and athlete in starting stance"
+            alt="NBA combine vertical jump testing: vert tester with hanging vanes and athlete in starting stance"
             caption="The classic Vertec setup used at the NBA combine."
           />
 
@@ -129,12 +129,12 @@ export default function Page() {
           <BlogP>
             Roughly 80% of NBA prospects measure between 30 and 36 inches on
             their max vertical at the combine. The genuine 40-plus inch
-            jumpers are rare even at the very top of the sport — and they
+            jumpers are rare even at the very top of the sport, and they
             tend to make highlight reels for a reason.
           </BlogP>
 
           <BlogTable
-            caption="WNBA / women's basketball — approximate ranges"
+            caption="WNBA / women's basketball: approximate ranges"
             headers={["Level (women)", "Typical standing vert"]}
             rows={[
               ["High school varsity", "14–20 in"],
@@ -174,7 +174,7 @@ export default function Page() {
 
           <BlogImage
             alt="Iconic silhouette of an athlete finishing a one-handed dunk above the rim"
-            caption="The very top of the curve — a tiny fraction of all jumpers."
+            caption="The very top of the curve. A tiny fraction of all jumpers."
             aspect="3/2"
           />
 
@@ -197,7 +197,7 @@ export default function Page() {
           <BlogP>
             One last thing worth saying: a single number on a single day
             doesn&apos;t define your jump. The interesting story is the trend
-            line — your weekly average over a season. Pick a tier you want to
+            line, your weekly average over a season. Pick a tier you want to
             move into, train two days a week, and measure on the third. That&apos;s
             it. That&apos;s the whole game.
           </BlogP>
